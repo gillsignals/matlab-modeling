@@ -14,6 +14,13 @@ The general structure used is as follows:
 * **Main**: calls the ODE solver on the equations file with the parameters and conditions specified by the driver file, also completes a mole balance on the output
 * **Driver**: provides the specifics of a given simulation and gives the input to the main file for the ODE solver; determines the species, parameters, initial conditions, and desired output
 
+## Specific Models
+
+The repository contains the following model:
+
+* **Intro**: an example toy model of two ligands binding with two receptors and one co-receptor, used as an example of building and solving a system of ODEs in MATLAB; all parameter values are "dummy" values and not based on particular ligands or receptors
+    * "intro_driver.m"
+
 ## Included MATLAB Files
 
 * **intro_species.m**: list of species for reference
