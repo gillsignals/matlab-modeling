@@ -77,7 +77,7 @@ receptors = 1e4;                                    % # receptors/cell
 avogadro = 6.022e23;                                % molecules/mole
 
 % Alpha parameter to use in ligand equations for correct units
-p.alpha = cells / p.V / avogadro * 1e12;
+p.alpha = cells / p.V / avogadro * 1e12;        % 1e12 converts from mol to nmol
 % Units = nM/(# receptors/cell)
 
 % I used receptors in terms of # receptors/cell, so I needed to convert the
